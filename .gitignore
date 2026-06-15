@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+# Local pretrained model directories
+ESM/
+protbert/
+
+# Runtime outputs
+outputs/*
+!outputs/.gitkeep
+*.pth
+*.pt
+*.ckpt
