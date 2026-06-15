@@ -15,7 +15,9 @@ Source code and datasets for **AFP-MCDF: Multi and cross-dimensional feature fus
 
 AFP-MCDF predicts antifreeze proteins from protein sequences by combining ProtBERT and ESM-based representations with multi-dimensional and cross-dimensional feature fusion modules.
 
-![AFP-MCDF ROC curve](assets/roc_curves.png)
+![AFP-MCDF model overview](assets/afp_mcdf_overview.jpg)
+
+Figure source: Fig. 5 from Li et al., "AFP-MCDF: Multi and cross-dimensional feature fusion methods for antifreeze protein prediction," Analytical Biochemistry, 2025.
 
 ## Repository Contents
 
@@ -27,6 +29,7 @@ AFP-MCDF predicts antifreeze proteins from protein sequences by combining ProtBE
 - `scripts/plan_one_5fold_protbert.py`: ProtBERT-based 5-fold experiment.
 - `scripts/plan_one_5fold_*.py`: ablation and comparison experiments.
 - `scripts/plot.py`: plotting/evaluation script for saved model outputs.
+- `assets/afp_mcdf_overview.jpg`: AFP-MCDF model structure figure from the published paper.
 - `assets/roc_curves.png`: ROC curve exported from the original experiment.
 - `outputs/`: default location for generated model checkpoints and figures.
 
